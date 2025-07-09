@@ -1,0 +1,51 @@
+# SASS Installation Steps
+
+## Prerequisites Check
+1. Check if Node.js is installed:
+   ```bash
+   node --version
+   ```
+   Output: v24.3.0
+
+2. Check if npm is installed:
+   ```bash
+   npm --version
+   ```
+   Output: 11.4.2
+
+## SASS Installation
+3. Install SASS globally using npm:
+   ```bash
+   npm install -g sass@3.7.4
+   ```
+
+## Alternative Installation (if Node.js not installed)
+If Node.js was not installed, these would be the steps:
+
+1. Install Node.js version 20.16 using nvm:
+   ```bash
+   curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+   ```
+
+2. Exit terminal and reopen it, then install Node.js:
+   ```bash
+   nvm install 20.16
+   nvm use 20.16
+   ```
+
+3. Then install SASS:
+   ```bash
+   npm install -g sass@3.7.4
+   ```
+
+## Verification
+4. Verify SASS installation:
+   ```bash
+   sass --version
+   ```
+
+## Notes
+- Node.js was already installed (v24.3.0) so we skipped the nvm installation
+- npm was already available (v11.4.2)
+- SASS installation is global using the -g flag
+- Version 3.7.4 is specified as per requirements
